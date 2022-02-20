@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  cockroach-operator:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-02-20T06:54:54.13382376Z"
+    description: cockroach-operator Helm chart for Kubernetes
+    digest: 17aaee31850ff132fd8316164a68c48b44b422795bfd82b76e277a8adacb9db3
+    name: cockroach-operator
+    urls:
+    - https://github.com/syfxlin/cockroach-operator/releases/download/cockroach-operator-0.1.0/cockroach-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-20T06:54:54.134068663Z"
