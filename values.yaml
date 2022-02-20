@@ -1,0 +1,15 @@
+manager:
+  cockroachOperator:
+    image:
+      repository: cockroachdb/cockroach-operator
+      tag: v2.5.0
+    resources:
+      requests:
+        cpu: 10m
+        memory: 32Mi
+  replicas: 1
+webhookService:
+  ports:
+  - port: 443
+    targetPort: 9443
+  type: ClusterIP
