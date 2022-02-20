@@ -1,5 +1,0 @@
-apiVersion: v2
-name: cockroach-operator
-description: cockroach-operator Helm chart for Kubernetes
-version: 0.1.0
-appVersion: "0.1.0"
